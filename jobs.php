@@ -7,7 +7,7 @@
 <meta name="author" content="Patrick Ward">
 <link rel="stylesheet" href="styles/styles.css">
 </head>
-
+   
 <body>
     <a class="skip-link" href="#main-jobs">Skip to content</a>
     <header class="header">
@@ -38,10 +38,11 @@
 
             </div>
         </section>
-        <section class="jobs-section" id = "job-section-1">
+        
+        <article class="jobs-section" id = "job-section-1">
             <h2>Senior Software Engineer</h2>
-            <aside class="aside-jobs">
-                <p><b>ID:</b> AAD67</p>
+            <aside class="aside-jobs" aria-labelledby="job1-title">
+                <p><b>ID:</b><a href="apply.html?ref=AAD67">AAD67</a><p>
                 <p><b>Title:</b> Senior Software Engineer</p>
                 <p><b>Salary:</b> $120,000</p>
             </aside>
@@ -65,11 +66,12 @@
                 <li>Experience in a project management role (preferred)</li>
             </ol>
             <a href="#job-section-2" class="cta-button" aria-label="Next Job">Next </a>
-        </section>
-        <section class="jobs-section" id = "job-section-2">
+</article>
+        
+        <article class="jobs-section" id = "job-section-2">
             <h2>Software Engineering Internship</h2>
-            <aside class="aside-jobs">
-                <p><b>ID:</b> AAF21</p>
+            <aside class="aside-jobs" aria-labelledby="job2-title">
+                <p><b>ID:</b><a href="apply.html?ref=AAF21">AAF21</a><p>
                 <p><b>Title:</b> Software Engineering Internship</p>
                 <p><b>Salary:</b> To be determined through interview process</p>
             </aside>
@@ -94,7 +96,7 @@
                 <li>Experience in computer science, software engineering or related industries (preferred)</li>
             </ol>
             <a href="#main-jobs" class="cta-button" aria-label="Return to top">Return </a>
-        </section>
+</article>
     </main>
     <footer class="footer">
         <div class="container">
