@@ -654,6 +654,8 @@ p> :not(.hero) {
   margin-left: 10px;
 }
 
+
+
 .apply-form label,
 .apply-form input,
 .apply-form select,
@@ -704,4 +706,13 @@ p> :not(.hero) {
     font-size: 1rem;
     text-align: center;
   }
+}
+
+/* process_eoi page */
+
+#main-process > :not(.hero) {
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; /* centers text */
 }

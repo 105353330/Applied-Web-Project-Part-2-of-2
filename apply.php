@@ -41,7 +41,7 @@
         <p>Fill out the below details to apply for a position at Digital Services Victoria.</p>
       </div>
     </section>
-    <form class="apply-form" method="POST" action="formtest.php">
+    <form class="apply-form" method="POST" action="process_eoi.php">
       <!-- Job Ref -->
       <label for="jobRef">Job Reference Number</label>
       <input type="text" id="jobRef" name="jobRef" pattern="^[A-Za-z0-9]{5}$" maxlength="5" required>
