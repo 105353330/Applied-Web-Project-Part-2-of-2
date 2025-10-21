@@ -1,8 +1,5 @@
-<?php
-$page_title = "Digital Services Victoria — Innovating Tomorrow's Technology";
-include("includes/header.inc");
-include("includes/nav.inc");
-?>
+<?php include 'header.inc'; ?>
+<?php include 'nav.inc'; ?>
 
 <main id="main">
   <section class="hero" role="banner">
@@ -19,21 +16,18 @@ include("includes/nav.inc");
       <div class="services-grid">
         <article class="service-card">
           <i class="fas fa-code" aria-hidden="true"></i>
-          <span class="sr-only">Software Development</span>
           <h3>Software Development</h3>
           <p>Custom, accessible apps and platforms for government services.</p>
         </article>
 
         <article class="service-card">
           <i class="fas fa-cloud" aria-hidden="true"></i>
-          <span class="sr-only">Cloud Solutions</span>
           <h3>Cloud Solutions</h3>
           <p>Secure, scalable cloud infrastructure for public agencies.</p>
         </article>
 
         <article class="service-card">
           <i class="fas fa-shield-alt" aria-hidden="true"></i>
-          <span class="sr-only">Cybersecurity</span>
           <h3>Cybersecurity</h3>
           <p>Protecting citizen data with modern security frameworks.</p>
         </article>
@@ -58,4 +52,4 @@ include("includes/nav.inc");
   </section>
 </main>
 
-<?php include("includes/footer.inc"); ?>
+<?php include 'footer.inc'; ?>
