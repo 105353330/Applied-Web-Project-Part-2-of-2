@@ -15,23 +15,22 @@
       <!-- Job Ref -->
       <label for="jobRef">Job Reference Number</label>
       <input type="text" id="jobRef" name="jobRef" pattern="^[A-Za-z0-9]{5}$" maxlength="5" required>
-      <div class="error-message" id="jobRefError" aria-live="polite"></div>
+      <p class="error-message" id="jobRefError" aria-live="polite"></p>
 
       <!-- First Name -->
       <label for="fname">First Name</label>
       <input type="text" id="fname" name="fname" pattern="^[A-Za-z]{1,20}$" maxlength="20" required>
-      <div class="error-message" id="fNameError" aria-live="polite"></div>
+      <p class="error-message" id="fNameError" aria-live="polite"></p>
 
       <!-- Last Name -->
       <label for="lname">Last Name</label>
       <input type="text" id="lname" name="lname" pattern="^[A-Za-z]{1,20}$" maxlength="20" required>
-      <div class="error-message" id="lNameError" aria-live="polite"></div>
+      <p class="error-message" id="lNameError" aria-live="polite"></p>
 
       <!-- DOB -->
       <label for="dob">Date of Birth</label>
-      <input type="text" id="dob" name="dob" placeholder="dd/mm/yyyy"
-        pattern="^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/[0-9]{4}$" required>
-        <div class="error-message" id="DOBError" aria-live="polite"></div>
+      <input type="text" id="dob" name="dob" placeholder="dd/mm/yyyy" pattern="^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/[0-9]{4}$" required>
+      <p class="error-message" id="DOBError" aria-live="polite"></p>
 
       <!-- Gender -->
       <fieldset>
