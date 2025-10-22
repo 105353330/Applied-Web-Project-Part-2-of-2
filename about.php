@@ -1,5 +1,6 @@
 <?php include 'includes/header.inc'; ?>
-<?php include 'includes/nav.inc'; ?>
+// test
+<?php include 'includes/nav.inc'; ?> 
 
   <main id="main">
   
