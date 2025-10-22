@@ -1,4 +1,5 @@
 <?php
+// test
 // URL: http://localhost/applied-web-project-part-2-of-2/
 
 $host = "localhost";         // because XAMPP runs the server locally
