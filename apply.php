@@ -1,35 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Apply — Digital Services Victoria</title>
-  <link rel="stylesheet" href="styles/styles.css">
-</head>
-
-
-<body>
-  <a class="skip-link" href="#main-apply">Skip to content</a>
-
-  <!-- Header -->
-  <header class="header">
-    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;">
-      <div class="logo-container">
-        <img src="images/dsv-logo.jpg" alt="Digital Services Victoria Logo" class="logo">
-        <h1>Available Positions</h1>
-      </div>
-      <nav class="main-nav" aria-label="Primary">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="jobs.html">Jobs</a></li>
-          <li><a href="apply.html" class="active" aria-current="page">Apply</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="mailto:info@digitalservicesvictoria.com.au">Contact Us</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+<?php include 'includes/header.inc'; ?>
+<?php include 'includes/nav.inc'; ?>
 
   <!-- Main -->
 
@@ -132,23 +102,4 @@
     </form>
   </main>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-content">
-        <p>
-          <a href="https://christopher-katsoulis.atlassian.net/jira/software/projects/A1WT/boards/1" target="_blank"
-            rel="noopener">Jira</a> ·
-          <a href="https://github.com/105353330/Applied-Web-Project-Part-1-of-2" target="_blank" rel="noopener">GitHub
-            repository</a> ·
-          <a href="mailto:info@digitalservicesvictoria.com.au">info@digitalservicesvictoria.com.au</a>
-        </p>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 Digital Services Victoria. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
-</body>
-
-</html>
+<?php include 'includes/footer.inc'; ?>

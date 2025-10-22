@@ -1,4 +1,6 @@
 <?php
+// URL: http://localhost/applied-web-project-part-2-of-2/
+
 $host = "localhost";         // because XAMPP runs the server locally
 $user = "root";          // default username for XAMPP's MySQL
 $pwd = "";              // default password is empty in XAMPP
