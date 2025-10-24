@@ -1,11 +1,13 @@
 <?php
+// setting.php
 $host = "localhost";
 $user = "root";
-$pwd = "";
-$sql_db = "dsv_database";
+$password = "";
+$dbname = "dsv_db";
 
-$conn = @mysqli_connect($host, $user, $pwd, $sql_db);
+$conn = mysqli_connect($host, $user, $password, $dbname);
+
 if (!$conn) {
-    die("<p>Error: Unable to connect to the database.</p>");
+    die("Database connection failed: " . mysqli_connect_error());
 }
 ?>
