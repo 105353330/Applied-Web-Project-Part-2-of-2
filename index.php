@@ -1,11 +1,17 @@
-<?php include('header.inc'); ?>
-
+<?php
+$body_id        = 'home';
+$page_title     = 'Digital Services Victoria — Innovating Tomorrow\'s Technology';
+$page_description = 'We deliver secure, accessible digital services for Victorian and Australian government agencies.';
+$active         = 'home';
+include __DIR__ . '/includes/header.inc';
+include __DIR__ . '/includes/nav.inc';
+?>
 <main id="main">
   <section class="hero" role="banner">
     <div class="container">
-      <h2>Innovating Tomorrow’s Technology Today</h2>
+      <h2>Innovating Tomorrow's Technology Today</h2>
       <p>We partner with Victorian and Australian government agencies to deliver secure, accessible digital services for all citizens.</p>
-      <a href="jobs.php" class="cta-button" aria-label="Explore available career opportunities">Explore Careers</a>
+      <a href="jobs.php" class="cta-button" aria-label="Explore available career opportunities">EXPLORE CAREERS</a>
     </div>
   </section>
 
@@ -15,19 +21,19 @@
       <div class="services-grid">
         <article class="service-card">
           <i class="fas fa-code" aria-hidden="true"></i>
-          <h3>Software Development</h3>
+          <h3>Software Development <span class="sr-only">service</span></h3>
           <p>Custom, accessible apps and platforms for government services.</p>
         </article>
 
         <article class="service-card">
           <i class="fas fa-cloud" aria-hidden="true"></i>
-          <h3>Cloud Solutions</h3>
+          <h3>Cloud Solutions <span class="sr-only">service</span></h3>
           <p>Secure, scalable cloud infrastructure for public agencies.</p>
         </article>
 
         <article class="service-card">
           <i class="fas fa-shield-alt" aria-hidden="true"></i>
-          <h3>Cybersecurity</h3>
+          <h3>Cybersecurity <span class="sr-only">service</span></h3>
           <p>Protecting citizen data with modern security frameworks.</p>
         </article>
       </div>
@@ -50,5 +56,4 @@
     </div>
   </section>
 </main>
-
-<?php include('footer.inc'); ?>
+<?php include __DIR__ . '/includes/footer.inc'; ?>

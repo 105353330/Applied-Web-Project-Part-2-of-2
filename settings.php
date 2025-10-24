@@ -1,12 +1,15 @@
 <?php
-// setting.php
+// Database settings for Project Part 2
+
 $host = "localhost";
 $user = "root";
-$password = "";
-$dbname = "dsv_db";
+$pwd  = "";
+$sql_db = "dsv_db";
 
-$conn = mysqli_connect($host, $user, $password, $dbname);
+// Establish connection
+$conn = @mysqli_connect($host, $user, $pwd, $sql_db);
 
+// Optional: simple connection check
 if (!$conn) {
     die("Database connection failed: " . mysqli_connect_error());
 }
