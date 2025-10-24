@@ -1,11 +1,9 @@
-<?php include 'includes/header.inc'; ?>
-// test
-<?php include 'includes/nav.inc'; ?>
+<?php include('header.inc'); ?>
 
 <main id="main">
   <section class="hero" role="banner">
     <div class="container">
-      <h2>Innovating Tomorrow's Technology Today</h2>
+      <h2>Innovating Tomorrow’s Technology Today</h2>
       <p>We partner with Victorian and Australian government agencies to deliver secure, accessible digital services for all citizens.</p>
       <a href="jobs.php" class="cta-button" aria-label="Explore available career opportunities">Explore Careers</a>
     </div>
@@ -53,4 +51,4 @@
   </section>
 </main>
 
-<?php include 'includes/footer.inc'; ?>
+<?php include('footer.inc'); ?>
