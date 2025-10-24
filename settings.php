@@ -1,9 +1,11 @@
 <?php
-// test
-// URL: http://localhost/applied-web-project-part-2-of-2/
+$host = "localhost";
+$user = "root";
+$pwd = "";
+$sql_db = "dsv_database";
 
-$host = "localhost";         // because XAMPP runs the server locally
-$user = "root";          // default username for XAMPP's MySQL
-$pwd = "";              // default password is empty in XAMPP
-$sql_db = "web_project_db";  // name of database
+$conn = @mysqli_connect($host, $user, $pwd, $sql_db);
+if (!$conn) {
+    die("<p>Error: Unable to connect to the database.</p>");
+}
 ?>
