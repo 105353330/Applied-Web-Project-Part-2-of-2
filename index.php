@@ -6,7 +6,7 @@
 <main id="main">
   <section class="hero" role="banner">
     <div class="container">
-      <h2>Innovating Tomorrow's Technology Today</h2>
+      <h2>Innovating Tomorrow’s Technology Today</h2>
       <p>We partner with Victorian and Australian government agencies to deliver secure, accessible digital services for all citizens.</p>
       <a href="jobs.php" class="cta-button" aria-label="Explore available career opportunities">Explore Careers</a>
     </div>
@@ -40,16 +40,14 @@
   <section class="testimonials">
     <div class="container">
       <h2>What Our Clients Say</h2>
-      <div class="testimonial-grid">
-        <blockquote class="testimonial-card">
-          <p>“Digital Services Victoria transformed our community with their innovative solutions.”</p>
-          <cite>— John Smith, CEO of TechCorp</cite>
-        </blockquote>
-        <blockquote class="testimonial-card">
-          <p>“Exceptional service and outstanding results every time.”</p>
-          <cite>— Sarah Johnson, CTO of InnovateX</cite>
-        </blockquote>
-      </div>
+      <blockquote>
+        <p>“Digital Services Victoria transformed our community with their innovative solutions.”</p>
+        <cite>— John Smith, CEO of TechCorp</cite>
+      </blockquote>
+      <blockquote>
+        <p>“Exceptional service and outstanding results every time.”</p>
+        <cite>— Sarah Johnson, CTO of InnovateX</cite>
+      </blockquote>
     </div>
   </section>
 </main>

@@ -1,16 +1,16 @@
 <footer class="footer">
   <div class="container">
-    <section class="footer-content">
-      <p>&copy; <?php echo date("Y"); ?> Digital Services Victoria. All rights reserved.</p>
-      <p>For more information, visit <a href="https://www.vic.gov.au" target="_blank" rel="noopener noreferrer">vic.gov.au</a></p>
-    </section>
-
+    <div class="footer-content">
+      <p>
+        <a href="https://christopher-katsoulis.atlassian.net/jira/software/projects/A1WT/boards/1" target="_blank" rel="noopener">Jira</a> ·
+        <a href="https://github.com/105353330/Applied-Web-Project-Part-1-of-2" target="_blank" rel="noopener">GitHub</a> ·
+        <a href="mailto:info@digitalservicesvictoria.com.au">Contact Us</a>
+      </p>
+    </div>
     <div class="footer-bottom">
-      <p>Designed and developed by the Digital Services Victoria Team.</p>
-      <p><a href="https://github.com/Digital-Services-Victoria" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+      <p>&copy; <?php echo date("Y"); ?> Digital Services Victoria. All rights reserved.</p>
     </div>
   </div>
 </footer>
-
 </body>
 </html>
