@@ -7,7 +7,5 @@
   <meta name="author" content="Digital Services Victoria Team">
   <title>Digital Services Victoria</title>
   <link rel="stylesheet" href="styles/styles.css">
-  <link rel="icon" type="image/png" href="images/dsv-logo.jpg">
+  <link rel="icon" type="image/jpg" href="images/dsv-logo.jpg">
 </head>
-<body>
-  <a class="skip-link" href="#main">Skip to main content</a>

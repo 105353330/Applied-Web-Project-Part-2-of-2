@@ -1,4 +1,6 @@
 <?php include 'includes/header.inc'; ?> 
+<body>
+    <a class="skip-link" href="#main-jobs">Skip to content</a>
 <?php include 'includes/nav.inc'; ?>
 
     <main id="main-jobs">
