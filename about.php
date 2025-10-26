@@ -14,7 +14,6 @@
   <section class="about-section">
     <div class="about-content">
 
-      <!-- Group Info -->
       <div class="group-info">
         <h2>Group Information</h2>
         <ul class="nested-list">
@@ -37,7 +36,6 @@
         </ul>
       </div>
 
-      <!-- Team Photo -->
       <figure class="group-photo">
         <img src="images/group-photo.jpg" alt="Digital Services Victoria Team group photo" width="600" height="600">
         <figcaption>
@@ -46,12 +44,11 @@
         </figcaption>
       </figure>
 
-      <!-- Member Contributions -->
       <section class="member-contributions" aria-labelledby="member-contrib-heading">
         <h2 id="member-contrib-heading">Member Contributions</h2>
         <div class="contributions-grid">
           <?php
-          // ✅ Database query for member contributions
+          // Database query for member contributions
           $query = "SELECT * FROM about";
           $result = mysqli_query($conn, $query);
 
@@ -73,7 +70,6 @@
         </div>
       </section>
 
-      <!-- Team Profile -->
       <section class="team-profile" aria-labelledby="team-profile-heading">
         <h2 id="team-profile-heading">Team Profile</h2>
         <table class="team-table">
@@ -107,7 +103,6 @@
         </table>
       </section>
 
-      <!-- Reflection Section -->
       <section class="additional-info">
         <h2>Additional Info / Reflection</h2>
         <div class="info-section">
