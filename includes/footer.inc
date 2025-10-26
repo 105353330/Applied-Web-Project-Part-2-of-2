@@ -3,7 +3,7 @@
     <div class="footer-content">
       <p>
         <a href="https://christopher-katsoulis.atlassian.net/jira/software/projects/A1WT/boards/1" target="_blank" rel="noopener">Jira</a> ·
-        <a href="https://github.com/105353330/Applied-Web-Project-Part-1-of-2" target="_blank" rel="noopener">GitHub</a> ·
+        <a href="https://github.com/105353330/Applied-Web-Project-Part-2-of-2" target="_blank" rel="noopener">GitHub</a> ·
         <a href="mailto:info@digitalservicesvictoria.com.au">Contact Us</a>
       </p>
     </div>
