@@ -19,7 +19,7 @@ if (isset($_POST['delete_jobref'])) {
     $stmt = mysqli_prepare($conn, $del_query);
     mysqli_stmt_bind_param($stmt, "s", $jobref);
     mysqli_stmt_execute($stmt);
-    $message = "✅ All EOIs with job reference '$jobref' have been deleted.";
+    $message = "All EOIs with job reference '$jobref' have been deleted.";
 }
 
 // Update EOI status
@@ -30,7 +30,7 @@ if (isset($_POST['update_status'])) {
     $stmt = mysqli_prepare($conn, $update_query);
     mysqli_stmt_bind_param($stmt, "si", $status, $EOInumber);
     mysqli_stmt_execute($stmt);
-    $message = "✅ EOI #$EOInumber status updated successfully.";
+    $message = "EOI #$EOInumber status updated successfully.";
 }
 
 // Filters and sorting
