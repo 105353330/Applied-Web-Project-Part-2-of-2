@@ -54,14 +54,13 @@ $query = "SELECT * FROM eoi $where $order";
 $result = mysqli_query($conn, $query);
 ?>
 
-<main id="main" style="margin-top: 120px;">
+<main id="main">
   <section class="hero hero-manage">
-    <div class="container">
       <h2>Manage EOIs</h2>
       <p>HR Manager Dashboard — View, Update, Sort, and Delete EOIs.</p>
     </div>
   </section>
-
+  <div class="container">
   <section class="manage-section">
     <div class="container">
       <p style="text-align:right;">

@@ -43,7 +43,7 @@ include 'includes/nav.inc';
                 <p>Enter the details below to access EOI entries.</p>
             </div>
 </section>
-<div class="container" style="margin-top:120px;">
+<div class="container" style="margin-top:60px;">
   <form method="post" action="login.php" style="max-width:400px;margin:auto;">
     <label for="username">Username:</label>
     <input type="text" name="username" id="username" required><br><br>
