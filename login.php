@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     if ($user = mysqli_fetch_assoc($result)) {
         // Compare hashed password
-        if (hash('sha256', $password) === $user['password']) {
+        if ($password == $user['password']) {
             $_SESSION['loggedin'] = true;
             $_SESSION['username'] = $user['username'];
             header("Location: manage.php");
@@ -31,10 +31,19 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 }
 ?>
 
-<?php include 'includes/header.inc'; ?>
+<?php 
+include 'includes/header.inc'; 
+include 'includes/nav.inc';
+?>
 
-<main class="container" style="margin-top:120px;">
-  <h2>Manager Login</h2>
+<main id = "login-main">
+    <section class="hero" role="banner">
+            <div class="container">
+                <h2>Manager Login</h2>
+                <p>Enter the details below to access EOI entries.</p>
+            </div>
+</section>
+<div class="container" style="margin-top:120px;">
   <form method="post" action="login.php" style="max-width:400px;margin:auto;">
     <label for="username">Username:</label>
     <input type="text" name="username" id="username" required><br><br>

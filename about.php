@@ -1,7 +1,11 @@
 <?php include 'includes/header.inc'; ?>
 <body class="about">
   <a class="skip-link" href="#main">Skip to content</a>
-<?php include 'includes/nav.inc'; ?> 
+<?php 
+include 'includes/nav.inc'; 
+require_once "settings.php";
+?> 
+
 
 <main id="main">
   <section class="hero hero-about">
